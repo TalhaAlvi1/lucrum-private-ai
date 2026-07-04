@@ -1,0 +1,35 @@
+{
+    "models": {
+        "Lucrum Pro": {
+            "internal_model": "llama2:70b",
+            "description": "Most powerful model for complex tasks",
+            "context_window": 4096,
+            "temperature": 0.7
+        },
+        "Lucrum Thinking": {
+            "internal_model": "llama2:13b",
+            "description": "Balanced model for general use",
+            "context_window": 4096,
+            "temperature": 0.8
+        },
+        "Lucrum Instant": {
+            "internal_model": "llama2:7b",
+            "description": "Fast responses for quick tasks",
+            "context_window": 2048,
+            "temperature": 0.5
+        },
+        "Lucrum Auto": {
+            "internal_model": "llama2:7b",
+            "description": "Automated task processing",
+            "context_window": 2048,
+            "temperature": 0.3
+        }
+    },
+    "default_model": "Lucrum Pro",
+    "vector_store": {
+        "chunk_size": 500,
+        "chunk_overlap": 50,
+        "embedding_model": "all-MiniLM-L6-v2",
+        "similarity_top_k": 4
+    }
+}
