@@ -85,6 +85,11 @@ streamlit run lucrum_ai.py
 3. Wait for processing (chunking + embedding into the vector store)
 4. Ask questions — answers are generated from your documents, with sources cited
 
+## ▶️ Demo
+
+https://github.com/user-attachments/assets/1303d5ff-647d-442e-833e-d250af7ccb63
+
+
 ## 📄 License
 
 Distributed under the **MIT License**. See [`LICENSE`](LICENSE) for details.
